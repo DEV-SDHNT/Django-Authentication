@@ -25,4 +25,4 @@ Clone this repo & run below commands in that directory.
 This will run the server locally on your device.
 
 ### Windows 
-    Replace the python3 with py in the above commands & run in the same sequence.
+Replace the python3 with py in the above commands & run in the same sequence.

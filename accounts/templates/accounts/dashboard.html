@@ -1,0 +1,48 @@
+<style>
+    body{
+        background-color: black;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    div{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        translate: -50% -50%;
+        background-color: aliceblue;
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+        width: 300px;
+        box-shadow: white 0 0 10px;
+    }
+    div h2{
+        color: black;
+        font-size: 34px;
+        margin-bottom: 50px;
+    }
+
+    .options{
+        position:relative;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius:10px;
+        height: 30px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: 90%;
+        box-shadow: black 0 0 5px;
+        margin-bottom: 20px;
+    }
+    a{
+        color:white;
+    }
+</style>
+<div>
+    <h2>Hi, {{ user.username }}! </h2>
+    <div class="options"><a href="{% url 'profile' %}">Profile</a></div>
+    <div class="options"><a href="{% url 'change_password' %}">Change Password</a></div>
+    <div class="options"><a href="{% url 'logout' %}">Logout</a></div>
+</div>

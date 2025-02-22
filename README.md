@@ -28,4 +28,4 @@ This will run the server locally on your device.
 Replace the python3 with py in the above commands & run in the same sequence.
 
 ### Video 
-![Video Title](https://github.com/user/repo/assets/video-url.mp4)
+![Video Title](https://github.com/user-attachments/assets/63ca60d4-112f-4b6d-b84b-bd388a66ff5d)

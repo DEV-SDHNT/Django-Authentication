@@ -26,3 +26,6 @@ This will run the server locally on your device.
 
 ### Windows 
 Replace the python3 with py in the above commands & run in the same sequence.
+
+### Video 
+![Video Title](https://github.com/user/repo/assets/video-url.mp4)
